@@ -14,6 +14,13 @@
 		6DC340801E070DFD0082C7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC3407E1E070DFD0082C7B3 /* LaunchScreen.storyboard */; };
 		6DC3408B1E070DFD0082C7B3 /* SwiftCarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3408A1E070DFD0082C7B3 /* SwiftCarthageTests.swift */; };
 		6DC340961E070DFD0082C7B3 /* SwiftCarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC340951E070DFD0082C7B3 /* SwiftCarthageUITests.swift */; };
+		6DC340A41E070E290082C7B3 /* SwiftCarthage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC340A31E070E290082C7B3 /* SwiftCarthage.swift */; };
+		6DC340D61E070F810082C7B3 /* SwiftCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */; };
+		6DC340DD1E070F810082C7B3 /* SwiftCarthage_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC340DC1E070F810082C7B3 /* SwiftCarthage_iOSTests.swift */; };
+		6DC340DF1E070F810082C7B3 /* SwiftCarthage-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC340CF1E070F810082C7B3 /* SwiftCarthage-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC340E21E070F810082C7B3 /* SwiftCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */; };
+		6DC340E31E070F810082C7B3 /* SwiftCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DC340EA1E070F990082C7B3 /* SwiftCarthage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC340A31E070E290082C7B3 /* SwiftCarthage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,42 @@
 			remoteGlobalIDString = 6DC340711E070DFD0082C7B3;
 			remoteInfo = SwiftCarthage;
 		};
+		6DC340D71E070F810082C7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC3406A1E070DFD0082C7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC340CC1E070F800082C7B3;
+			remoteInfo = "SwiftCarthage-iOS";
+		};
+		6DC340D91E070F810082C7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC3406A1E070DFD0082C7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC340711E070DFD0082C7B3;
+			remoteInfo = SwiftCarthage;
+		};
+		6DC340E01E070F810082C7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC3406A1E070DFD0082C7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC340CC1E070F800082C7B3;
+			remoteInfo = "SwiftCarthage-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DC340C41E070F240082C7B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DC340E31E070F810082C7B3 /* SwiftCarthage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6DC340721E070DFD0082C7B3 /* SwiftCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +89,13 @@
 		6DC340911E070DFD0082C7B3 /* SwiftCarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCarthageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC340951E070DFD0082C7B3 /* SwiftCarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCarthageUITests.swift; sourceTree = "<group>"; };
 		6DC340971E070DFD0082C7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC340A31E070E290082C7B3 /* SwiftCarthage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCarthage.swift; sourceTree = "<group>"; };
+		6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC340CF1E070F810082C7B3 /* SwiftCarthage-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCarthage-iOS.h"; sourceTree = "<group>"; };
+		6DC340D01E070F810082C7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC340D51E070F810082C7B3 /* SwiftCarthage-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftCarthage-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC340DC1E070F810082C7B3 /* SwiftCarthage_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCarthage_iOSTests.swift; sourceTree = "<group>"; };
+		6DC340DE1E070F810082C7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC340E21E070F810082C7B3 /* SwiftCarthage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +121,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DC340C91E070F800082C7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC340D21E070F810082C7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC340D61E070F810082C7B3 /* SwiftCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +145,8 @@
 				6DC340741E070DFD0082C7B3 /* SwiftCarthage */,
 				6DC340891E070DFD0082C7B3 /* SwiftCarthageTests */,
 				6DC340941E070DFD0082C7B3 /* SwiftCarthageUITests */,
+				6DC340CE1E070F810082C7B3 /* SwiftCarthage-iOS */,
+				6DC340DB1E070F810082C7B3 /* SwiftCarthage-iOSTests */,
 				6DC340731E070DFD0082C7B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +157,8 @@
 				6DC340721E070DFD0082C7B3 /* SwiftCarthage.app */,
 				6DC340861E070DFD0082C7B3 /* SwiftCarthageTests.xctest */,
 				6DC340911E070DFD0082C7B3 /* SwiftCarthageUITests.xctest */,
+				6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */,
+				6DC340D51E070F810082C7B3 /* SwiftCarthage-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +172,7 @@
 				6DC3407C1E070DFD0082C7B3 /* Assets.xcassets */,
 				6DC3407E1E070DFD0082C7B3 /* LaunchScreen.storyboard */,
 				6DC340811E070DFD0082C7B3 /* Info.plist */,
+				6DC340A31E070E290082C7B3 /* SwiftCarthage.swift */,
 			);
 			path = SwiftCarthage;
 			sourceTree = "<group>";
@@ -125,7 +195,36 @@
 			path = SwiftCarthageUITests;
 			sourceTree = "<group>";
 		};
+		6DC340CE1E070F810082C7B3 /* SwiftCarthage-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6DC340CF1E070F810082C7B3 /* SwiftCarthage-iOS.h */,
+				6DC340D01E070F810082C7B3 /* Info.plist */,
+			);
+			path = "SwiftCarthage-iOS";
+			sourceTree = "<group>";
+		};
+		6DC340DB1E070F810082C7B3 /* SwiftCarthage-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC340DC1E070F810082C7B3 /* SwiftCarthage_iOSTests.swift */,
+				6DC340DE1E070F810082C7B3 /* Info.plist */,
+			);
+			path = "SwiftCarthage-iOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DC340CA1E070F800082C7B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC340DF1E070F810082C7B3 /* SwiftCarthage-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6DC340711E070DFD0082C7B3 /* SwiftCarthage */ = {
@@ -135,10 +234,12 @@
 				6DC3406E1E070DFD0082C7B3 /* Sources */,
 				6DC3406F1E070DFD0082C7B3 /* Frameworks */,
 				6DC340701E070DFD0082C7B3 /* Resources */,
+				6DC340C41E070F240082C7B3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6DC340E11E070F810082C7B3 /* PBXTargetDependency */,
 			);
 			name = SwiftCarthage;
 			productName = SwiftCarthage;
@@ -181,6 +282,43 @@
 			productReference = 6DC340911E070DFD0082C7B3 /* SwiftCarthageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6DC340CC1E070F800082C7B3 /* SwiftCarthage-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC340E41E070F810082C7B3 /* Build configuration list for PBXNativeTarget "SwiftCarthage-iOS" */;
+			buildPhases = (
+				6DC340C81E070F800082C7B3 /* Sources */,
+				6DC340C91E070F800082C7B3 /* Frameworks */,
+				6DC340CA1E070F800082C7B3 /* Headers */,
+				6DC340CB1E070F800082C7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftCarthage-iOS";
+			productName = "SwiftCarthage-iOS";
+			productReference = 6DC340CD1E070F800082C7B3 /* SwiftCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DC340D41E070F810082C7B3 /* SwiftCarthage-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC340E71E070F810082C7B3 /* Build configuration list for PBXNativeTarget "SwiftCarthage-iOSTests" */;
+			buildPhases = (
+				6DC340D11E070F810082C7B3 /* Sources */,
+				6DC340D21E070F810082C7B3 /* Frameworks */,
+				6DC340D31E070F810082C7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC340D81E070F810082C7B3 /* PBXTargetDependency */,
+				6DC340DA1E070F810082C7B3 /* PBXTargetDependency */,
+			);
+			name = "SwiftCarthage-iOSTests";
+			productName = "SwiftCarthage-iOSTests";
+			productReference = 6DC340D51E070F810082C7B3 /* SwiftCarthage-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +346,17 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6DC340711E070DFD0082C7B3;
 					};
+					6DC340CC1E070F800082C7B3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DXLWGLSLWW;
+						ProvisioningStyle = Automatic;
+					};
+					6DC340D41E070F810082C7B3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DXLWGLSLWW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DC340711E070DFD0082C7B3;
+					};
 				};
 			};
 			buildConfigurationList = 6DC3406D1E070DFD0082C7B3 /* Build configuration list for PBXProject "SwiftCarthage" */;
@@ -226,6 +375,8 @@
 				6DC340711E070DFD0082C7B3 /* SwiftCarthage */,
 				6DC340851E070DFD0082C7B3 /* SwiftCarthageTests */,
 				6DC340901E070DFD0082C7B3 /* SwiftCarthageUITests */,
+				6DC340CC1E070F800082C7B3 /* SwiftCarthage-iOS */,
+				6DC340D41E070F810082C7B3 /* SwiftCarthage-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +406,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DC340CB1E070F800082C7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC340D31E070F810082C7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC340781E070DFD0082C7B3 /* ViewController.swift in Sources */,
+				6DC340A41E070E290082C7B3 /* SwiftCarthage.swift in Sources */,
 				6DC340761E070DFD0082C7B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +449,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DC340C81E070F800082C7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC340EA1E070F990082C7B3 /* SwiftCarthage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC340D11E070F810082C7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC340DD1E070F810082C7B3 /* SwiftCarthage_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +477,21 @@
 			isa = PBXTargetDependency;
 			target = 6DC340711E070DFD0082C7B3 /* SwiftCarthage */;
 			targetProxy = 6DC340921E070DFD0082C7B3 /* PBXContainerItemProxy */;
+		};
+		6DC340D81E070F810082C7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC340CC1E070F800082C7B3 /* SwiftCarthage-iOS */;
+			targetProxy = 6DC340D71E070F810082C7B3 /* PBXContainerItemProxy */;
+		};
+		6DC340DA1E070F810082C7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC340711E070DFD0082C7B3 /* SwiftCarthage */;
+			targetProxy = 6DC340D91E070F810082C7B3 /* PBXContainerItemProxy */;
+		};
+		6DC340E11E070F810082C7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC340CC1E070F800082C7B3 /* SwiftCarthage-iOS */;
+			targetProxy = 6DC340E01E070F810082C7B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,9 +609,11 @@
 		6DC3409B1E070DFD0082C7B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DXLWGLSLWW;
 				INFOPLIST_FILE = SwiftCarthage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caiqiujun.SwiftCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,9 +624,11 @@
 		6DC3409C1E070DFD0082C7B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DXLWGLSLWW;
 				INFOPLIST_FILE = SwiftCarthage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caiqiujun.SwiftCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +694,80 @@
 			};
 			name = Release;
 		};
+		6DC340E51E070F810082C7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DXLWGLSLWW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftCarthage-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiujun.SwiftCarthage-iOS";
+				PRODUCT_NAME = SwiftCarthage;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DC340E61E070F810082C7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DXLWGLSLWW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftCarthage-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiujun.SwiftCarthage-iOS";
+				PRODUCT_NAME = SwiftCarthage;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DC340E81E070F810082C7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DXLWGLSLWW;
+				INFOPLIST_FILE = "SwiftCarthage-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiujun.SwiftCarthage-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCarthage.app/SwiftCarthage";
+			};
+			name = Debug;
+		};
+		6DC340E91E070F810082C7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DXLWGLSLWW;
+				INFOPLIST_FILE = "SwiftCarthage-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiujun.SwiftCarthage-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCarthage.app/SwiftCarthage";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,6 +801,22 @@
 			buildConfigurations = (
 				6DC340A11E070DFD0082C7B3 /* Debug */,
 				6DC340A21E070DFD0082C7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC340E41E070F810082C7B3 /* Build configuration list for PBXNativeTarget "SwiftCarthage-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC340E51E070F810082C7B3 /* Debug */,
+				6DC340E61E070F810082C7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC340E71E070F810082C7B3 /* Build configuration list for PBXNativeTarget "SwiftCarthage-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC340E81E070F810082C7B3 /* Debug */,
+				6DC340E91E070F810082C7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

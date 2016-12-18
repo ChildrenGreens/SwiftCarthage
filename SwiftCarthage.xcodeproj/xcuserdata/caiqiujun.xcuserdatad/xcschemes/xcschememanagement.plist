@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SwiftCarthage-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SwiftCarthage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>6DC340901E070DFD0082C7B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DC340A91E070F240082C7B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DC340B11E070F240082C7B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DC340CC1E070F800082C7B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DC340D41E070F810082C7B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
