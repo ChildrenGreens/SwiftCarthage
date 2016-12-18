@@ -8,10 +8,9 @@
 
 import UIKit
 
-class SwiftCarthage: NSObject {
+open class SwiftCarthage: NSObject {
   
   public class func showCarthage() {
     print("hello, my carthage!")
   }
-
 }
